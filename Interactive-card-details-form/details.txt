@@ -1,0 +1,16 @@
+0000 0000 0000 0000
+
+  000
+
+
+  Card Number
+
+  YY
+
+  CVC
+
+  Confirm
+
+  <!-- Completed state start -->
+
+  

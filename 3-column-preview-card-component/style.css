@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0;
+    font-family: "Lexend Deca", sans-serif;
+   
+}
+
+.cards-container{
+    color: white;
+    margin: 1.5rem;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    max-width: 900px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+
+.card{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.card img{
+    width: 64px;
+}
+.card h2{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+   
+}
+.card p{
+    opacity: 0.7;
+    line-height: 2;
+    margin-bottom: 2.5rem;
+}
+.card a{
+    border: 2px solid white;
+    padding: 1em 2em;
+    border-radius: 2em;
+    margin-top: auto;
+    display: inline-block;
+    align-self: flex-start;
+}
+
+.orange-card{
+    background-color:  hsl(31, 77%, 52%);
+
+}
+.green-card{
+    background-color:  hsl(184, 100%, 22%);
+}
+.dark-green-card{
+    background-color: hsl(179, 100%, 13%);
+  
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:850px){
+    .cards-container{
+        flex-direction: column;
+    }
+}
